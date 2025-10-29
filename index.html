@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Welcome to Team 7</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@300;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+</head>
+<body>
+  <div id="pageWrap">
+    <header class="topbar">
+      <div class="wrap">
+        <div class="brand">
+          <div class="logo">T7</div>
+          <div class="brand-text">
+            <div class="title">TEAM 7</div>
+            <div class="subtitle">THE SADJR</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="themeToggle" class="icon-btn" aria-pressed="false">🌙</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="bg-wrap" aria-hidden="true">
+      <div class="bg-layer"></div>
+      <div class="bg-layer layer-2"></div>
+    </div>
+
+    <main class="hero wrap" id="hero">
+      <div class="hero-center">
+        <h1 class="hero-title"><span class="script">WELCOME</span> TO <span class="accent">TEAM 7</span></h1>
+        <p class="hero-sub">Due tomorrow, do tomorrow.</p>
+
+        <div class="team-photo-wrap">
+          <div id="groupCard" class="group-card tilt" tabindex="0" aria-label="Group photo">
+            <img src="images/team.png" alt="Group 7 photo" class="group-photo">
+          </div>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn-primary" href="team.html" id="meetTeamBtn">MEET THE TEAM</a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer wrap">© 2025 Team 7 — University of Eastern Pangasinan</footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
